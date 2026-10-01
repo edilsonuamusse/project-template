@@ -1,0 +1,15 @@
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local secrets and operating system metadata
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
